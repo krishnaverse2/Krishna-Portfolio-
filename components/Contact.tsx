@@ -28,7 +28,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://github.com/YOUR_GITHUB_USERNAME"
+            href="https://github.com/krishnaverse2"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 rounded-full border border-black px-8 py-4 font-semibold transition-all duration-300 hover:bg-black hover:text-white"
@@ -38,7 +38,9 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/"
+            href="https://www.linkedin.com/in/www.linkedin.com/in/
+krishna-sonawane-248127324
+/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 rounded-full border border-blue-600 px-8 py-4 font-semibold text-blue-600 transition-all duration-300 hover:bg-blue-600 hover:text-white"
@@ -55,7 +57,7 @@ export default function Contact() {
             <p>
               📧 <strong>Email:</strong>{" "}
               <a
-                href="mailto:YOUR_EMAIL@gmail.com"
+                href="krishnasonawane4649@gmail.com"
                 className="text-blue-600 hover:underline"
               >
                 krishnasonawane4649@gmail.com
