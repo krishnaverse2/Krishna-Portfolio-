@@ -6,7 +6,7 @@ const projects = [
     title: "SAKHI",
     type: "Healthcare",
     image: "/sakhi.png",
-    desc: "SAKHI is a healthcare mobile application built with React Native and Laravel. It provides doctor consultations, yoga trainers, disease information, pregnancy tracking, healthcare products, blogs, period tracking, and many other healthcare features with a modern user experience.",
+    desc: "SAKHI is a dedicated healthcare platform designed to make women's health more accessible, informative, and convenient. It brings together trusted doctors, certified yoga trainers, health blogs, disease awareness, home remedies, healthcare products, pregnancy and period tracking, and wellness resources in one place. With an upcoming mobile application, SAKHI aims to empower women with reliable healthcare support anytime, anywhere.",
     tech: ["React Native", "Laravel", "MySQL", "REST API"],
     live: "https://sakhihealthcare.com",
   },

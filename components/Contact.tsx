@@ -20,7 +20,7 @@ export default function Contact() {
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <a
-            href="mailto:YOUR_EMAIL@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Krishna,%20I%20visited%20your%20portfolio."
+            href="mailto:krishnasonawane4649@gmail.com"
             className="flex items-center gap-3 rounded-full bg-black px-8 py-4 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-gray-800"
           >
             <FaEnvelope />
