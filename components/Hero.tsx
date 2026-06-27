@@ -2,45 +2,68 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className="flex min-h-[650px] flex-col items-center justify-center px-5 text-center">
-      <div className="relative mb-8 flex h-64 w-64 items-center justify-center">
-        {/* Moving blob border only */}
-        <div className="blob-border absolute inset-0"></div>
+    <section className="min-h-[650px] px-5 py-20">
+      <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
+        {/* Left Image */}
+        <div className="flex justify-center md:justify-start">
+          <div className="relative flex h-72 w-72 items-center justify-center md:h-96 md:w-96">
+            <div className="blob-border absolute inset-0"></div>
 
-        {/* Fixed profile image */}
-        <div className="absolute inset-[10px] overflow-hidden rounded-full bg-white">
-          <img
-            src="/profile.png"
-            alt="Krishna Sonawane"
-            className="h-full w-full rounded-full object-cover"
-          />
+            <div className="absolute inset-[12px] overflow-hidden rounded-full bg-white md:inset-[16px]">
+              <img
+                src="/profile.png"
+                alt="Krishna Sonawane"
+                className="h-full w-full rounded-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Right Intro */}
+        <div className="text-center md:text-left">
+          <p className="mb-3 text-lg font-bold text-blue-500">
+            Hi, I'm Krishna 👋
+          </p>
+
+          <h1 className="text-5xl font-extrabold leading-tight tracking-tight text-[#222] md:text-7xl">
+            Software
+            <br />
+            Developer
+          </h1>
+
+          <p className="mt-6 max-w-xl text-lg leading-8 text-gray-700 md:text-xl">
+            A passionate <b>Full Stack Developer</b> based in Maharashtra,
+            India 📍. I build modern websites, mobile apps, dashboards, and
+            scalable digital products.
+          </p>
+
+          <div className="mt-8 flex justify-center gap-5 text-3xl md:justify-start">
+            <a href="https://github.com/" target="_blank" rel="noreferrer">
+              <FaGithub />
+            </a>
+
+            <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
+              <FaLinkedin />
+            </a>
+          </div>
+
+          <div className="mt-8 flex flex-wrap justify-center gap-4 md:justify-start">
+            <a
+              href="#projects"
+              className="rounded-full bg-black px-7 py-3 font-bold text-white shadow-lg transition hover:scale-105"
+            >
+              View My Work
+            </a>
+
+            <a
+              href="#contact"
+              className="rounded-full border border-black px-7 py-3 font-bold text-black transition hover:bg-black hover:text-white"
+            >
+              Contact Me
+            </a>
+          </div>
         </div>
       </div>
-
-      <h1 className="text-4xl font-extrabold leading-tight tracking-tight md:text-6xl">
-        Software <br /> Developer <span>👋🏻</span>
-      </h1>
-
-      <p className="mt-6 max-w-md text-lg text-gray-700">
-        Hi, I'm <b>Krishna Sonawane.</b> A passionate Full Stack Developer based
-        in Maharashtra, India 📍
-      </p>
-
-      <div className="mt-8 flex gap-5 text-3xl">
-        <a href="https://github.com/" target="_blank" rel="noreferrer">
-          <FaGithub />
-        </a>
-        <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
-          <FaLinkedin />
-        </a>
-      </div>
-
-      <a
-        href="#projects"
-        className="mt-8 rounded-full bg-black px-7 py-3 font-bold text-white shadow-lg transition hover:scale-105"
-      >
-        View My Work
-      </a>
     </section>
   );
 }

@@ -25,7 +25,6 @@ const skills = [
   { name: "Redux", icon: <SiRedux className="text-purple-600" /> },
   { name: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
   { name: "Express.js", icon: <SiExpress /> },
-  { name: "Tailwind", icon: <SiTailwindcss className="text-cyan-500" /> },
   { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
   { name: "HTML5", icon: <FaHtml5 className="text-orange-600" /> },
   { name: "CSS3", icon: <FaCss3Alt className="text-blue-600" /> },
