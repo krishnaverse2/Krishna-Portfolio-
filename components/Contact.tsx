@@ -38,13 +38,11 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/www.linkedin.com/in/
-krishna-sonawane-248127324
-/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 rounded-full border border-blue-600 px-8 py-4 font-semibold text-blue-600 transition-all duration-300 hover:bg-blue-600 hover:text-white"
-          >
+  href="https://www.linkedin.com/in/krishna-sonawane-248127324/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-3 rounded-full border border-blue-600 px-8 py-4 font-semibold text-blue-600 transition-all duration-300 hover:bg-blue-600 hover:text-white"
+>
             <FaLinkedin />
             LinkedIn
           </a>
