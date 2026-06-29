@@ -22,8 +22,6 @@ const skills = [
   { name: "React", icon: <FaReact className="text-sky-500" /> },
   { name: "Next.js", icon: <SiNextdotjs /> },
   { name: "React Native", icon: <FaReact className="text-sky-400" /> },
-  { name: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
-  { name: "Express.js", icon: <SiExpress /> },
   { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
   { name: "HTML5", icon: <FaHtml5 className="text-orange-600" /> },
   { name: "CSS3", icon: <FaCss3Alt className="text-blue-600" /> },
