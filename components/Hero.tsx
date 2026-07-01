@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className="min-h-[650px] px-5 py-20">
+    <section id="home" className="min-h-[650px] px-5 py-20">
       <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
         {/* Left Image */}
         <div className="flex justify-center md:justify-start">
@@ -32,9 +32,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-8 text-gray-700 md:text-xl">
-            A passionate <b>Full Stack Developer</b> based in Maharashtra,
-            India 📍. I build modern websites, mobile apps, dashboards, and
-            scalable digital products.
+           A passionate <b>Software Engineer & Full Stack Developer</b> based in Maharashtra, India 📍. I design and build scalable web applications, cross-platform mobile apps, and robust backend systems with a focus on performance, clean architecture, and exceptional user experiences.
           </p>
 
           <div className="mt-8 flex justify-center gap-5 text-3xl md:justify-start">
